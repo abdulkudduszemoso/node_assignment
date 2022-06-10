@@ -2,7 +2,7 @@ import CsvWriter from "csv-writer";
 
 const createCsvWriter = CsvWriter.createObjectCsvWriter;
 const csvWrite = createCsvWriter(({
-    path: './public/outputCSV/emailOutput.csv',
+    path: './public/emailOutput.csv',
     header: [
         {id: 'firstname', title: 'First Name'},
         {id: 'lastname', title: 'Last Name'},
